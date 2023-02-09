@@ -1,0 +1,14 @@
+const zero = (n) => (n ? Math.floor(eval(`0${n}`)) : 0);
+const one = (n) => (n ? Math.floor(eval(`1${n}`)) : 1);
+const two = (n) => (n ? Math.floor(eval(`2${n}`)) : 2);
+const three = (n) => (n ? Math.floor(eval(`3${n}`)) : 3);
+const four = (n) => (n ? Math.floor(eval(`4${n}`)) : 4);
+const five = (n) => (n ? Math.floor(eval(`5${n}`)) : 5);
+const six = (n) => (n ? Math.floor(eval(`6${n}`)) : 6);
+const seven = (n) => (n ? Math.floor(eval(`7${n}`)) : 7);
+const eight = (n) => (n ? Math.floor(eval(`8${n}`)) : 8);
+const nine = (n) => (n ? Math.floor(eval(`9${n}`)) : 9);
+const plus = (n) => `+${n}`;
+const minus = (n) => `-${n}`;
+const times = (n) => `*${n}`;
+const dividedBy = (n) => `/${n}`;
